@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(65, 60, 60);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        } 
+
+        nav {
+            background-color: rgb(204, 204, 204);
+            padding: 10px;
+            box-shadow: -6px 5px 9px rgba(0, 0, 0, 0.37);
+            border-radius: 2.5px 10px;
+        }
+
+        nav > a {
+            margin: 40px;
+        }
+
+        main {
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        article {
+            background-color: rgb(204, 204, 204);
+        }
+
+        article > aside {
+            font-size: 0.8em;
+            font-style: italic;
+        }
+
+        footer {
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 50px 50px 50px 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">link 1</a>
+            <a href="a">link 2</a>
+            <a href="a">link 3</a>
+            <a href="a">link 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ducimus quibusdam expedita accusamus dolores quae, animi beatae exercitationem eveniet consectetur magni fugiat molestiae, cum, fuga dicta veritatis. Natus, suscipit vero?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere enim, repudiandae iure nulla exercitationem ex id soluta earum tenetur impedit ab odio maxime minus optio odit quam. Necessitatibus, id dolorem?</p>
+                <aside>
+                    <p>Artigo escrito por Boris Fausto</p>
+                </aside>
+            </article>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Anthony Coldebella</p>
+    </footer>
+
+    <div id="bola">
+    </div>
+    
+</body>
+</html>

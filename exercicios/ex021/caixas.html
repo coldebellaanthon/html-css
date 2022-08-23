@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O modelo de caixas</title>
+    <style>
+        h1 { /* Box level */
+            background-color: lightslategray;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgb(50, 134, 29);
+            /* shorthand para border
+            border: 10px solid rgb(50, 134, 29);*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            /* shorthand para outline
+            outline: 5px dashed salmon;*/
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* shorthand para padding
+            padding: 10px 10px 10px 10px (tem que ser no sentido horário começando por cima. Se todos os parâmetros forem iguais, pode colocar só um.)
+            */
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /* shorthand para margin
+            margin: 10px 10px 10px 10px (tem que ser no sentido horário começando por cima. Se todos os parâmetros forem iguais, pode colocar só um.)
+            */
+
+        
+
+            
+        }
+
+        a { /* Inline level */
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>O modelo de caixas</h1>
+        
+        <h2>A anatomia da caixa</h2>
+        <img src="https://www.freecodecamp.org/news/content/images/2021/08/Screen-Shot-2021-08-03-at-1.38.36-AM.png" alt="A anatomia da caixa" height="300px" width="400px">
+
+        <h2>Tipos de caixa</h2>
+            <h3><a href="">box-level</a></h3>
+            <p>Um exemplo é a div, h, p, main, header, article, aside, footer, form, video</p>
+            <h3>inline-level</h3>
+            <p>Um exemplo é o span, a, code, samll, strong, em, sup e sub, label, button, input, select</p>
+    
+</body>
+</html>

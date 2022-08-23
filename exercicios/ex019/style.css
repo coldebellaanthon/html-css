@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgreen;
+}
+
+h1 {
+    color: rgb(45, 146, 25);
+
+}
+
+h1#titulo-principal {
+    text-align: center;
+    background-color: rgb(32, 87, 0);
+    color: rgb(255, 255, 255);
+    
+    /* HTML: id CSS: # (só pode um elemento)
+    HTML: class CSS: . (pode vários elementos)*/
+}
+
+h2 {
+    color: rgb(99, 0, 0);
+
+}
+
+.basico {
+    color: rgb(41, 150, 41);
+}
+
+.intermediario {
+    color: rgb(168, 129, 2);
+}
+
+.avançado {
+    color: rgb(158, 25, 25);
+}

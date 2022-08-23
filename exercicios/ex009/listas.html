@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O poder das listas</title>
+</head>
+<body>
+<h1>Trabalhando com listas</h1>
+<h2>Listas ordenadas</h2>
+    <p>A HTML chama de <strong><em>ordered list</em></strong> todas aquelas listas onde a ordem dos itens é importante.
+    </p>
+    <ol type="i" start="5">
+        <li>Item 1</li> <!--li aqui significa list item-->
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+<h3>Os parâmetros para listas ordenadas</h3>
+    <p>A ol também possui um parâmetro type que pode configurar o tipo de marcador da lista. Já o parâmetro start dá o algarismo no qual se inicia a contagem da lista </p>
+    <p>
+        1 - Valor padrão. Cria listas numeradas. <br>
+        A - Cria listas alfabéticas em maiúscula. <br>
+        a - Cria listas alfabéticas em minúscula. <br>
+        I - Cria listas com algarismos romanos em maiúscula. <br>
+        i - Cria listas com algarismos romanos em minúcula. <br>
+    </p>
+<h2>Listas não ordenadas</h2>
+    <p>A lista não ordenada (<strong><em>Unordered list</em></strong>) é mais simples e autoexplicativa. A tag usada para ela é "ul". 
+        <ul type="circle">
+            <li>Item 1</li>
+            <li>Item 2</li> 
+            <li>Item 3</li> 
+            <li>Item 4</li> 
+            <li>Item 5</li> 
+            
+        </ul>
+    </p>
+<h2>Listas mistas (E músicas favoritas)</h2>
+    <ul type="square">
+        <li>Rock</li>
+        <ul type="circle">
+            <li>Pearl Jam</li>
+            <ul type="circle">
+                <li>Alive</li>
+                <li>Black</li>
+            </ul>
+            <li>Led Zeppelin</li>
+        </ul>
+        <li>MPB</li>
+        <ul type="circle">
+            <li>Ave Sangria</li>
+            <li>Belchior</li>
+        </ul>
+    </ul> <!--Isso é muito utilizado para a criação de menus-->
+<h2>Lista de definição</h2>
+<dl>
+    <dt>Termo</dt>
+    <dd>Definição</dd>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação de conteúdo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação do design de um site.</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+</dl>   
+    
+</body>
+</html>

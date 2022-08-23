@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Colocando áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5</p>
+
+    <audio preload="metadata" controls>
+        <source src="midia/nevergonnagiveyouup.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não conseguiu carregar o áudio.</p>
+    </audio>
+
+    <h1>Colocando vídeos</h1>
+
+    <video width="500" preload="metadata" poster="imagens/foto-m.png" controls>
+        <source src="midia/Royalty Free Music For Podcast Intro [20 Best Intros For Podcasts].mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu reproduzir o vídeo.</p>
+        <!--É interessante colocar em diversos formatos como webm e ogv. No áudio também é interessante.-->
+    </video>
+
+    <h2>Inserindo vídeos do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e9dZQelULDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Não consome dados de tráfego. Como colocar o vídeo para se alterar o tamanho conforme a tela?-->
+    
+</body>
+</html>
