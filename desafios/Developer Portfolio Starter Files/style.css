@@ -75,9 +75,10 @@ div.principal > h1 {
     font-size: 2em;
 }
 
-img {
-    padding: 10px;
+picture {
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px;
-    
 }
+
 
